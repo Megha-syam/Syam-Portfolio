@@ -9,10 +9,10 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="flex flex-col justify-center items-center text-center">
           <h2 className="text-lg font-medium text-primary mb-2 opacity-90">
-            Hello, I'm Kambhampati Megha Syam
+            Hello, I'm
           </h2>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-navy font-heading leading-tight">
-            Megha Syam
+            Kambhampati Megha Syam
           </h1>
           <p className="text-xl mb-6 text-foreground/80 max-w-lg">
             Building Scalable Web Applications | Data Analytics Enthusiast | Full Stack Developer
