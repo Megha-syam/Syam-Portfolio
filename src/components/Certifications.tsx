@@ -27,14 +27,6 @@ const certifications = [
     date: "July 2024",
     icon: <Award className="h-12 w-12 text-blue-600" />,
     color: "border-blue-200 bg-blue-50"
-  },
-  {
-    id: 4,
-    name: "Altair Data Science Master Virtual Internship",
-    issuer: "Altair",
-    date: "2024",
-    icon: <Award className="h-12 w-12 text-green-600" />,
-    color: "border-green-200 bg-green-50"
   }
 ];
 

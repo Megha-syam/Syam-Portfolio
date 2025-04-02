@@ -22,7 +22,7 @@ const projects = [
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
     icon: <Database className="h-8 w-8 text-white" />,
     iconBg: "bg-green-500",
-    challenges: "Ensured HIPAA compliance and implemented secure access control for different user roles.",
+    challenges: "Implemented HIPAA-compliant user access controls and optimized database queries for handling large volumes of patient records.",
     github: "https://github.com/kambhampati/hospital-management"
   },
   {

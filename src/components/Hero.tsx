@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="flex flex-col justify-center items-center text-center">
           <h2 className="text-lg font-medium text-primary mb-2 opacity-90">
-            Hello, I'm
+            Hello, I'm Kambhampati Megha Syam
           </h2>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-navy font-heading leading-tight">
             Megha Syam
@@ -25,7 +25,7 @@ const Hero = () => {
             </Button>
             <Button variant="outline" asChild>
               <a href="/resume.pdf" download>
-                Download CV <Download className="ml-2 h-4 w-4" />
+                Download Resume <Download className="ml-2 h-4 w-4" />
               </a>
             </Button>
           </div>

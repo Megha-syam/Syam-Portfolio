@@ -1,6 +1,5 @@
 
 import React from "react";
-import { Heart } from "lucide-react";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -26,7 +25,7 @@ const Footer = () => {
               <a href="#contact" className="text-white/80 hover:text-white transition-colors">Contact</a>
             </div>
             <p className="text-white/70 text-sm flex items-center">
-              © {year} Megha Syam. Made with <Heart className="h-3 w-3 mx-1 text-red-400" /> and React.
+              © {year} Megha Syam.
             </p>
           </div>
         </div>
