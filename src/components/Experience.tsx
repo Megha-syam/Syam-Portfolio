@@ -14,7 +14,7 @@ const hackathons = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="section-container bg-secondary/30">
+    <section id="experience" className="section-container bg-blue-50">
       <h2 className="section-heading text-center mx-auto">Experience & Hackathons</h2>
       
       <div className="mt-12 max-w-4xl mx-auto">
@@ -35,6 +35,28 @@ const Experience = () => {
                   <li>Deployed serverless applications using AWS Lambda, optimizing execution by 20%.</li>
                   <li>Managed CI/CD pipelines with GitHub Actions and AWS CodePipeline.</li>
                   <li>Designed scalable architectures on AWS EC2, S3, and RDS, reducing deployment costs by 15%.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          {/* Altair Data Science Internship */}
+          <div className="relative">
+            <div className="absolute -left-9 bg-white border-2 border-primary rounded-full p-1">
+              <Calendar className="h-5 w-5 text-primary" />
+            </div>
+            <div>
+              <div className="flex flex-wrap justify-between items-center mb-1">
+                <h3 className="text-xl font-bold text-navy">Altair Data Science Master Virtual Internship</h3>
+                <span className="text-muted-foreground text-sm">April - June 2024</span>
+              </div>
+              <p className="text-muted-foreground mb-3">Data Science Intern | Remote</p>
+              <div className="bg-white p-4 rounded-lg border border-border">
+                <ul className="list-disc list-inside space-y-2">
+                  <li>Analyzed large datasets using Python, Pandas, and NumPy to extract meaningful insights.</li>
+                  <li>Built predictive models using machine learning algorithms achieving 85% accuracy.</li>
+                  <li>Created interactive data visualizations with Altair's tools to communicate complex insights.</li>
+                  <li>Collaborated with cross-functional teams to optimize data processing workflows.</li>
                 </ul>
               </div>
             </div>

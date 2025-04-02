@@ -10,7 +10,6 @@ const projects = [
     title: "Handloom Fashion E-commerce Platform",
     description: "A global platform to showcase and sell 100+ handloom fashion products with role-based modules for Admin, Artisan, and Buyer, improving user experience by 40%.",
     techStack: ["Spring Boot", "MySQL", "Java", "HTML", "CSS", "JavaScript"],
-    image: "/placeholder.svg",
     icon: <Layers className="h-8 w-8 text-white" />,
     iconBg: "bg-blue-500",
     challenges: "Implemented secure payment processing and built a scalable product catalog system.",
@@ -21,7 +20,6 @@ const projects = [
     title: "Hospital Management System",
     description: "Designed a system for efficient healthcare data management, reducing patient data retrieval time by 25% using indexing strategies and improved system performance by 30% through optimized API calls.",
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
-    image: "/placeholder.svg",
     icon: <Database className="h-8 w-8 text-white" />,
     iconBg: "bg-green-500",
     challenges: "Ensured HIPAA compliance and implemented secure access control for different user roles.",
@@ -32,7 +30,6 @@ const projects = [
     title: "Task Management System",
     description: "Built a system to streamline project workflows, tracking 100+ tasks across teams with real-time updates, reducing task completion delays by 35% and increasing team productivity by 20%.",
     techStack: ["Python", "Django", "PostgreSQL", "JavaScript", "CSS"],
-    image: "/placeholder.svg",
     icon: <Zap className="h-8 w-8 text-white" />,
     iconBg: "bg-yellow-500",
     challenges: "Implemented real-time notifications and created an intuitive drag-and-drop interface.",
@@ -43,7 +40,6 @@ const projects = [
     title: "Movie Recommendation System",
     description: "Developed a content-based movie recommendation system improving recommendation accuracy by 30% using TF-IDF Vectorization and Cosine Similarity with an interactive UI built with Streamlit.",
     techStack: ["Python", "Streamlit", "Pandas", "NumPy", "Scikit-learn"],
-    image: "/placeholder.svg",
     icon: <Code2 className="h-8 w-8 text-white" />,
     iconBg: "bg-purple-500",
     challenges: "Optimized the recommendation algorithm for large datasets and implemented caching for better performance.",
@@ -53,7 +49,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="section-container bg-secondary/30">
+    <section id="projects" className="section-container bg-slate-50">
       <h2 className="section-heading text-center mx-auto">My Projects</h2>
       <p className="text-center text-muted-foreground max-w-3xl mx-auto mb-12">
         Here are some of my recent projects that showcase my technical skills and problem-solving abilities.
@@ -62,14 +58,10 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
         {projects.map((project) => (
           <div key={project.id} className="project-card group flex flex-col h-full">
-            <div className="h-48 bg-secondary relative overflow-hidden">
-              <div
-                className={`absolute top-4 left-4 ${project.iconBg} p-3 rounded-lg shadow-md`}
-              >
+            <div className="p-6 flex flex-col flex-grow">
+              <div className={`${project.iconBg} p-3 rounded-lg shadow-md w-12 h-12 flex items-center justify-center mb-4`}>
                 {project.icon}
               </div>
-            </div>
-            <div className="p-6 flex flex-col flex-grow">
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
               <p className="text-muted-foreground mb-4 flex-grow">{project.description}</p>
               

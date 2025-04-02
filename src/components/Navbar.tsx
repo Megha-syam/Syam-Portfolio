@@ -52,7 +52,7 @@ const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
         <a href="#home" className="text-xl font-bold font-heading text-navy">
-          Kambhampati<span className="text-accent">.</span>
+          Megha Syam<span className="text-accent">.</span>
         </a>
 
         {/* Desktop Navigation */}

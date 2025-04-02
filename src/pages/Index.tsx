@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Kambhampati Megha Syam | Portfolio";
+    document.title = "Megha Syam | Portfolio";
   }, []);
 
   return (
