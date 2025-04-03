@@ -63,7 +63,7 @@ const Contact = () => {
             <h3 className="text-xl font-bold mb-4">Connect with me</h3>
             <div className="flex gap-4">
               <a
-                href="https://github.com/kambhampati"
+                href="https://github.com/Megha-syam"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#333] text-white p-3 rounded-lg hover:opacity-90 transition-opacity"
@@ -73,7 +73,7 @@ const Contact = () => {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/in/kambhampati"
+                href="https://www.linkedin.com/in/megha-syam-kambhampati-38800020b/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#0077b5] text-white p-3 rounded-lg hover:opacity-90 transition-opacity"
@@ -85,7 +85,7 @@ const Contact = () => {
                 </svg>
               </a>
               <a
-                href="https://leetcode.com/kambhampati"
+                href="https://leetcode.com/u/2200033128/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#FFA116] text-white p-3 rounded-lg hover:opacity-90 transition-opacity"

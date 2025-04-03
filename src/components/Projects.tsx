@@ -13,7 +13,7 @@ const projects = [
     icon: <Layers className="h-8 w-8 text-white" />,
     iconBg: "bg-blue-500",
     challenges: "Implemented secure payment processing and built a scalable product catalog system.",
-    github: "https://github.com/kambhampati/handloom-marketplace"
+    github: "https://github.com/Megha-syam/HandloomMarketplace"
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const projects = [
     icon: <Database className="h-8 w-8 text-white" />,
     iconBg: "bg-green-500",
     challenges: "Implemented HIPAA-compliant user access controls and optimized database queries for handling large volumes of patient records.",
-    github: "https://github.com/kambhampati/hospital-management"
+    github: "https://github.com/Megha-syam/Health-Connect"
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const projects = [
     icon: <Zap className="h-8 w-8 text-white" />,
     iconBg: "bg-yellow-500",
     challenges: "Implemented real-time notifications and created an intuitive drag-and-drop interface.",
-    github: "https://github.com/kambhampati/task-management"
+    github: "https://github.com/Megha-syam/Task-Management-System"
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const projects = [
     icon: <Code2 className="h-8 w-8 text-white" />,
     iconBg: "bg-purple-500",
     challenges: "Optimized the recommendation algorithm for large datasets and implemented caching for better performance.",
-    github: "https://github.com/kambhampati/movie-recommendation"
+    github: "https://github.com/Megha-syam/movies-recommendation-system"
   }
 ];
 

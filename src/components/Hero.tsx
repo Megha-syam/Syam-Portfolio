@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
           <div className="flex space-x-4">
             <a
-              href="https://github.com/kambhampati"
+              href="https://github.com/Megha-syam"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full border border-border hover:bg-primary hover:text-white transition-colors duration-300"
@@ -39,7 +39,7 @@ const Hero = () => {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com/in/kambhampati"
+              href="https://www.linkedin.com/in/megha-syam-kambhampati-38800020b/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full border border-border hover:bg-primary hover:text-white transition-colors duration-300"
