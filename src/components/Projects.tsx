@@ -44,7 +44,18 @@ const projects = [
     iconBg: "bg-purple-500",
     challenges: "Optimized the recommendation algorithm for large datasets and implemented caching for better performance.",
     github: "https://github.com/Megha-syam/movies-recommendation-system"
-  }
+  },
+  {
+  id: 5,
+  title: "Student Management System",
+  description: "Developed a full-stack MERN CRUD application to manage student records, including creation, update, retrieval, and deletion functionalities. Enhanced usability by adding an interactive dashboard and streamlined data management workflows.",
+  techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
+  icon: <Database className="h-8 w-8 text-white" />,
+  iconBg: "bg-blue-500",
+  challenges: "Ensured efficient data handling by implementing RESTful APIs, optimized MongoDB queries for faster retrieval, and designed reusable React components for forms and tables.",
+  github: "https://github.com/Megha-syam/StudentManagementSystem-MERN_CRUD"
+},
+
 ];
 
 const Projects = () => {

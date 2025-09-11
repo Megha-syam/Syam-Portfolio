@@ -3,9 +3,9 @@ import React from "react";
 import { CheckCircle } from "lucide-react";
 
 const skills = [
-  "React", "Django", "JavaScript", "Node.js",
+   "Java","SpringBoot","React.js","Node.js",
   "Python", "SQL", "MongoDB", "AWS",
-  "Spring Boot", "Git", "Data Analytics", "JSF"
+  "Servicenow", "Git", "Data Analytics", "NLTK"
 ];
 
 const About = () => {
@@ -16,13 +16,13 @@ const About = () => {
           <h2 className="section-heading">About Me</h2>
           <div className="space-y-4 mt-6">
             <p className="text-lg">
-              I'm a highly motivated 3rd year Computer Science student with hands-on experience in web development 
+              I'm a highly motivated 4th year Computer Science student with hands-on experience in web development 
               and cloud technologies. A strong team player with excellent problem-solving skills and a passion for technology, 
               eager to contribute as a Software Engineer by solving complex challenges.
             </p>
             <p className="text-lg">
               Currently pursuing my Bachelor of Technology degree at KL University, Vijayawada 
-              with a CGPA of 9.62, I focus on building scalable applications and leveraging data analytics 
+              with a CGPA of 9.6, I focus on building scalable applications and leveraging data analytics 
               to create meaningful solutions.
             </p>
             <div className="mt-8">
@@ -35,6 +35,15 @@ const About = () => {
                   <p className="text-muted-foreground">2022-2026</p>
                 </div>
               </div>
+              <div className="bg-white p-4 rounded-lg border border-border">
+                <h4 className="font-bold">Intermediate</h4>
+                <p className="text-muted-foreground">MPC • 95.2%</p>
+                <div className="flex justify-between mt-1">
+                  <p>Vikas Junior College, JanagareddyGudem</p>
+                  <p className="text-muted-foreground">2020-2022</p>
+                </div>
+              </div>
+               
             </div>
           </div>
         </div>
@@ -70,7 +79,7 @@ const About = () => {
                 </div>
                 <div>
                   <div className="flex justify-between mb-1">
-                    <span>SQL, NoSQL</span>
+                    <span>SQL, MongoDB</span>
                   </div>
                   <div className="w-full bg-secondary rounded-full h-2">
                     <div className="bg-primary h-2 rounded-full" style={{ width: "80%" }}></div>

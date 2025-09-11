@@ -4,21 +4,22 @@ import { CheckCircle, Award } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const certifications = [
+
   {
     id: 1,
-    name: "Red Hat Certified Enterprise Application Developer (EX183)",
-    issuer: "Red Hat",
-    date: "September 2024",
-    icon: <Award className="h-12 w-12 text-red-600" />,
-    color: "border-red-200 bg-red-50"
-  },
-  {
-    id: 2,
     name: "AWS Certified Cloud Practitioner",
     issuer: "Amazon Web Services",
     date: "May 2024",
     icon: <Award className="h-12 w-12 text-yellow-600" />,
     color: "border-yellow-200 bg-yellow-50"
+  },
+  {
+    id: 2,
+    name: "Red Hat Certified Enterprise Application Developer (EX183)",
+    issuer: "Red Hat",
+    date: "September 2024",
+    icon: <Award className="h-12 w-12 text-red-600" />,
+    color: "border-red-200 bg-red-50"
   },
   {
     id: 3,
@@ -27,7 +28,15 @@ const certifications = [
     date: "July 2024",
     icon: <Award className="h-12 w-12 text-blue-600" />,
     color: "border-blue-200 bg-blue-50"
-  }
+  },
+  {
+    id: 4,
+    name: "ServiceNow Certified System Adminstrator",
+    issuer: "ServiceNow",
+    date: "June 2025",
+    icon: <Award className="h-12 w-12 text-green-600" />,
+    color: "border-green-200 bg-green-50"
+  },
 ];
 
 const Certifications = () => {
