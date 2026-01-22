@@ -1,6 +1,7 @@
 
 import React from "react";
 import { ArrowRight, Github, Linkedin, Download } from "lucide-react";
+import { SiLeetcode } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -15,7 +16,7 @@ const Hero = () => {
             Kambhampati Megha Syam
           </h1>
           <p className="text-xl mb-6 text-foreground/80 max-w-lg">
-            Building Scalable Web Applications | Data Analytics Enthusiast | Full Stack Developer
+            Software Engineer |Full Stack Web Developer | Data Analytics Enthusiast 
           </p>
           <div className="flex flex-wrap gap-4 mb-8 justify-center">
             <Button asChild>
@@ -24,7 +25,7 @@ const Hero = () => {
               </a>
             </Button>
             <Button variant="outline" asChild>
-              <a href="/KAMBHAMPATI_MEGHA_SYAM_RESUME.pdf" download>
+              <a href="/KAMBHAMPATI_MEGHA_SYAM_RESUME (1).pdf" download>
                 Download Resume <Download className="ml-2 h-4 w-4" />
               </a>
             </Button>
@@ -39,12 +40,21 @@ const Hero = () => {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://www.linkedin.com/in/megha-syam-kambhampati-38800020b/"
+              href="https://www.linkedin.com/in/kmeghasyam/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full border border-border hover:bg-primary hover:text-white transition-colors duration-300"
             >
               <Linkedin className="h-5 w-5" />
+            </a>
+
+            <a
+              href="https://leetcode.com/u/KMeghaSyam/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full border border-border hover:bg-primary hover:text-white transition-colors duration-300"
+            >
+              <SiLeetcode className="h-5 w-5" />
             </a>
           </div>
         </div>

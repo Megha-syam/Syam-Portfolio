@@ -85,7 +85,7 @@ const Contact = () => {
                 </svg>
               </a>
               <a
-                href="https://leetcode.com/u/2200033128/"
+                href="https://leetcode.com/u/KMeghaSyam/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#FFA116] text-white p-3 rounded-lg hover:opacity-90 transition-opacity"
