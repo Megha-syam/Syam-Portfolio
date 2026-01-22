@@ -38,14 +38,16 @@ const certifications = [
     color: "border-green-200 bg-green-50"
   },
 
+
   {
-    id: 4,
+    id: 5,
     name: "SQL Basic & Intermediate Certification",
     issuer: "HackerRank",
     date: "September 2025",
     icon: <Award className="h-12 w-12 text-orange-600" />,
     color: "border-orange-200 bg-orange-50"
   },
+
 ];
 
 const Certifications = () => {
